@@ -1,0 +1,18 @@
+
+<section class="container">
+    <div class="row">
+  {{range .Usrs}}
+        <figure class="col-sm-2 list">
+           <h4 id="topmov"><a href="/Users/{{.ID}}">{{.MustName}}</a></h4>
+           <a href="/Users/{{.ID}}"><img src="{{if .ImageURL}}{{ .ImageURL}}{{else}}/tools/asset/img/nanny-flower.jpg{{end}}"></a>    
+           <p>{{.Level}}</p>
+        </figure>
+  {{else}}
+    </div>
+  </section>
+  <p>No Users found.</p>
+  {{end}}
+  
+  <div class="clearfix"></div>
+  
+  

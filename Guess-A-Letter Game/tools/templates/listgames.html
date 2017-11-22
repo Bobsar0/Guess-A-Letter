@@ -1,0 +1,36 @@
+
+<section class="container">
+    <div class="row">
+      {{$UGui := .UserGui}}
+  {{range .Games}}
+        <figure class="col-sm-3 list">
+           <h4 id="topmov">
+           <a href="/games/{{.ID}}"><img src="{{if .ImageURL}}{{ .ImageURL}}{{else}}/tools/asset/images/kingin.jpg{{end}}"></a>    
+          </h4>
+           <div id="bottommov">
+            <a href="/games/{{.ID}}">{{$UGui.MustName .Name}}</a>
+            <p >{{.Category}}</p>
+          </div>
+        </figure>
+  {{else}}
+    </div>
+  </section>
+  <p>No Saved Games found.</p>
+  {{end}}
+  
+  <!--p id="log"-->
+  {{$length := len .Games}}{{if not ($UGui.ListCount $length)}}
+    <div class="col-sm-3 list" style="padding: 10px">  
+        <a href="/games/start" class="btn btn-success btn-sm" >
+          <i class="glyphicon glyphicon-plus"></i>
+          <span>Start a New Game</span>
+        </a>
+   </div>
+   {{else}}
+        <a href="/games/start" class="btn btn-success btn-sm" >
+          <i class="glyphicon glyphicon-plus"></i>
+          <span>Start a New Game</span>
+        </a>
+   {{end}}
+   
+  <div class="clearfix"></div>
