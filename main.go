@@ -15,7 +15,8 @@ import (
 )
 
 func main() {
-	addr := os.Getenv("PORT")
+	//addr := os.Getenv("PORT")
+	addr := "https://guess-a-letter.herokuapp.com/"
 	sigs := make(chan os.Signal, 1)
 	done := make(chan bool, 1)
 	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM) //relays incoming signals to sigs
