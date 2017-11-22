@@ -1,1 +1,1 @@
-web: guess-a-letter
+web: go run main.go
