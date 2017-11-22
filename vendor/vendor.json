@@ -12,32 +12,46 @@
 			"revisionTime": "2017-11-22T17:24:13Z"
 		},
 		{
+			"checksumSHA1": "o8+oYAXjVWs9+2hn/n5xmUPIpbU=",
 			"path": "github.com/Bobsar0/Guess-A-Letter/apiapp",
-			"revision": ""
+			"revision": "3d58d9e28aed8ee71d7e83bc5d17ac49ac86a483",
+			"revisionTime": "2017-11-22T22:35:23Z"
 		},
 		{
+			"checksumSHA1": "eMR9rp6QE+evi30dwVQctacotIg=",
 			"path": "github.com/Bobsar0/Guess-A-Letter/apigame",
-			"revision": ""
+			"revision": "3d58d9e28aed8ee71d7e83bc5d17ac49ac86a483",
+			"revisionTime": "2017-11-22T22:35:23Z"
 		},
 		{
+			"checksumSHA1": "9/eyg1sevX+AkeQxN1aAWvuJ7LQ=",
 			"path": "github.com/Bobsar0/Guess-A-Letter/apiuser",
-			"revision": ""
+			"revision": "3d58d9e28aed8ee71d7e83bc5d17ac49ac86a483",
+			"revisionTime": "2017-11-22T22:35:23Z"
 		},
 		{
+			"checksumSHA1": "SuCTWpQbu1imoNYsamYxs5U144Q=",
 			"path": "github.com/Bobsar0/Guess-A-Letter/tools",
-			"revision": ""
+			"revision": "3d58d9e28aed8ee71d7e83bc5d17ac49ac86a483",
+			"revisionTime": "2017-11-22T22:35:23Z"
 		},
 		{
+			"checksumSHA1": "0sh4FXicINLD/q5WM0qnXLan21g=",
 			"path": "github.com/dgrijalva/jwt-go",
-			"revision": ""
+			"revision": "dbeaa9332f19a944acb5736b4456cfcc02140e29",
+			"revisionTime": "2017-10-19T21:57:19Z"
 		},
 		{
+			"checksumSHA1": "jxiP6B6vh8DwEQxtQKqvJIx2fKk=",
 			"path": "github.com/go-chi/chi",
-			"revision": ""
+			"revision": "687d2792aedd8e8ac3bbd8592cf55b91d7ea8ce9",
+			"revisionTime": "2017-11-20T15:19:03Z"
 		},
 		{
+			"checksumSHA1": "K/pRyMbycw0SZmxfSotLU9FSjnA=",
 			"path": "github.com/gorilla/handlers",
-			"revision": ""
+			"revision": "90663712d74cb411cbef281bc1e08c19d1a76145",
+			"revisionTime": "2017-11-01T17:43:35Z"
 		}
 	],
 	"rootPath": "github.com/Bobsar0/Guess-A-Letter"
