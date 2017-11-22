@@ -1,14 +1,17 @@
 package main
 
 import (
-	"Game/apiapp"
-	"Game/apigame"
-	"Game/apiuser"
 	"fmt"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
+
+	"github.com/Bobsar0/Guess-A-Letter/apiuser"
+
+	"github.com/Bobsar0/Guess-A-Letter/apigame"
+
+	"github.com/Bobsar0/Guess-A-Letter/apiapp"
 )
 
 func main() {
