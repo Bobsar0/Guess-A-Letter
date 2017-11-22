@@ -9,7 +9,7 @@ import (
 	"os"
 	"strconv"
 
-	"Game/tools"
+	"github.com/Bobsar0/Guess-A-Letter/tools"
 
 	"github.com/go-chi/chi"
 )

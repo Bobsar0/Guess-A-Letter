@@ -1,11 +1,13 @@
 package apiapp
 
 import (
-	"Game/apigame"
-	"Game/apiuser"
 	"fmt"
 	"net/http"
 	"strings"
+
+	"github.com/Bobsar0/Guess-A-Letter/apiuser"
+
+	"github.com/Bobsar0/Guess-A-Letter/apigame"
 )
 
 // Handler is a collection of all the service handlers.

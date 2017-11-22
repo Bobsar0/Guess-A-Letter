@@ -2,11 +2,12 @@
 package apiuser
 
 import (
-	"Game/tools"
 	"context"
 	"fmt"
 	"net/http"
 	"time"
+
+	"github.com/Bobsar0/Guess-A-Letter/tools"
 
 	jwt "github.com/dgrijalva/jwt-go"
 )

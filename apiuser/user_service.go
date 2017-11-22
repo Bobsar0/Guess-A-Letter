@@ -2,10 +2,11 @@
 package apiuser
 
 import (
-	"Game/tools"
 	"errors"
 	"fmt"
 	"time"
+
+	"github.com/Bobsar0/Guess-A-Letter/tools"
 )
 
 type DBType map[string]*User

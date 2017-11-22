@@ -5,7 +5,7 @@ package apigame
 import (
 	"time"
 
-	"Game/apiuser"
+	"github.com/Bobsar0/Guess-A-Letter/apiuser"
 )
 
 /*Session has the database handle the services can reference them. By making the

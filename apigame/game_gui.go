@@ -1,13 +1,14 @@
 package apigame
 
 import (
-	"Game/tools"
 	"bytes"
 	"encoding/json"
 	"fmt"
 	"math"
 	"net/http"
 	"net/url"
+
+	"github.com/Bobsar0/Guess-A-Letter/tools"
 )
 
 type GameGuiService struct {

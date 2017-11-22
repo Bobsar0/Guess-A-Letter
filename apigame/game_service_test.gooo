@@ -1,7 +1,7 @@
 package apigame_test
 
 import (
-	"Game/apigame"
+	"github.com/Bobsar0/Guess-A-Letter/apigame"
 	"context"
 	"fmt"
 	"testing"

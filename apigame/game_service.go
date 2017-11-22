@@ -2,8 +2,6 @@
 package apigame
 
 import (
-	"Game/apiuser"
-	"Game/tools"
 	"context"
 	"errors"
 	"fmt"
@@ -13,6 +11,10 @@ import (
 	"net/url"
 	"reflect"
 	"strings"
+
+	"github.com/Bobsar0/Guess-A-Letter/tools"
+
+	"github.com/Bobsar0/Guess-A-Letter/apiuser"
 )
 
 var nextID GameID
